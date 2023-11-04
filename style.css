@@ -5,3 +5,16 @@ h1{
     text-shadow: 0 1px 15px rgb(128, 5, 83) ;
     margin-top: 20px;
 }
+
+div{
+    background-color: bisque;
+    border: 1px;
+    padding: 10px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+div :hover{
+    transform: scale(1.03);
+    box-shadow: 0 10px 15px;
+}
